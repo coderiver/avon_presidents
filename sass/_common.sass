@@ -60,15 +60,17 @@ a
 
 .out
 	padding: 35px 0 0 55px
-	background: url(../img/bg1.jpg) 0% 0px no-repeat
+	background: url(../img/bg_standart.jpg) 0% 0px no-repeat
 	+cover
 	+box
 .out-i
 	width: 836px
 	margin: 0 auto
-
+.out_popup
+	background: url(../img/bg_popup.jpg) 0px 0px no-repeat
+.out_goran
+	background: url(../img/bg_goran.jpg) 0px 0px no-repeat
 .out_close
-	// background: url(../img/bg2.jpg) 0% 0px no-repeat
 	text-align: center
 	.h2
 		margin-bottom: 40px
@@ -106,7 +108,12 @@ a
 	p
 		margin-bottom: 10px
 		line-height: 1
-
+	.winners-action
+		.i-car_mod
+			float: none
+			position: absolute
+			right: -100px
+			top: -40px
 ///////////////////////////////// * icons * ////////////////////////////////
 [class^="i-"], [class*=" i-"]
 	display: inline-block
@@ -124,6 +131,8 @@ a
 	+s(i-avon)
 .i-car
 	+s(car)
+.i-car_mod
+	+s(car_mod)
 ///////////////////////////////// * .header * ////////////////////////////////
 .header
 	height: 90px
@@ -276,8 +285,11 @@ a
 			color: #000 
 		span
 			color: $purple 
-	.i-car
+	.i-car, .i-car_mod
 		float: right
 		margin-bottom: 20px
+
+.winners-action_main
+	min-height: 450px 
 
 	

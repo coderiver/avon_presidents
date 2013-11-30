@@ -102,9 +102,13 @@ a:hover { text-decoration: none; }
 
 .wrap { width: 836px; margin: 0 auto; }
 
-.out { padding: 35px 0 0 55px; background: url(../img/bg1.jpg) 0% 0px no-repeat; background-repeat: no-repeat; background-size: cover; background-position: 0% 0%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.out { padding: 35px 0 0 55px; background: url(../img/bg_standart.jpg) 0% 0px no-repeat; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 .out-i { width: 836px; margin: 0 auto; }
+
+.out_popup { background: url(../img/bg_popup.jpg) 0px 0px no-repeat; }
+
+.out_goran { background: url(../img/bg_goran.jpg) 0px 0px no-repeat; }
 
 .out_close { text-align: center; }
 .out_close .h2 { margin-bottom: 40px; line-height: 1; color: #a3228a; font-family: "helveticaneuecyrultralight", sans-serif; font-size: 40px; font-size: 4rem; }
@@ -116,20 +120,23 @@ a:hover { text-decoration: none; }
 .out_enter .page .h3 { padding-bottom: 20px; margin-bottom: 0; line-height: 1; color: black; font-size: 40px; font-size: 4rem; font-family: "helveticaneuecyrultralight", sans-serif; }
 
 .page_main p { margin-bottom: 10px; line-height: 1; }
+.page_main .winners-action .i-car_mod { float: none; position: absolute; right: -100px; top: -40px; }
 
 [class^="i-"], [class*=" i-"] { display: inline-block; vertical-align: middle; }
 
-.i-user { background: url('../img/icons-sccb4eda085.png') 0 -1576px no-repeat; width: 17px; height: 18px; }
+.i-user { background: url('../img/icons-s3cd6ebb7a7.png') 0 -2088px no-repeat; width: 17px; height: 18px; }
 
-.i-arr { background: url('../img/icons-sccb4eda085.png') 0 -1604px no-repeat; width: 15px; height: 19px; }
+.i-arr { background: url('../img/icons-s3cd6ebb7a7.png') 0 -2116px no-repeat; width: 15px; height: 19px; }
 
-.i-tw { background: url('../img/icons-sccb4eda085.png') 0 -1337px no-repeat; width: 56px; height: 63px; }
+.i-tw { background: url('../img/icons-s3cd6ebb7a7.png') 0 -1849px no-repeat; width: 56px; height: 63px; }
 
-.i-rose { background: url('../img/icons-sccb4eda085.png') 0 -1498px no-repeat; width: 67px; height: 43px; }
+.i-rose { background: url('../img/icons-s3cd6ebb7a7.png') 0 -2010px no-repeat; width: 67px; height: 43px; }
 
-.i-avon { background: url('../img/icons-sccb4eda085.png') 0 -1410px no-repeat; width: 137px; height: 41px; }
+.i-avon { background: url('../img/icons-s3cd6ebb7a7.png') 0 -1922px no-repeat; width: 137px; height: 41px; }
 
-.i-car { background: url('../img/icons-sccb4eda085.png') 0 0 no-repeat; width: 557px; height: 413px; }
+.i-car { background: url('../img/icons-s3cd6ebb7a7.png') 0 -512px no-repeat; width: 557px; height: 413px; }
+
+.i-car_mod { background: url('../img/icons-s3cd6ebb7a7.png') 0 0 no-repeat; width: 613px; height: 502px; }
 
 .header { height: 90px; padding-bottom: 35px; position: relative; *zoom: 1; }
 .header:before, .header:after { content: ""; display: table; }
@@ -141,7 +148,7 @@ a:hover { text-decoration: none; }
 .header .header__action { margin-right: 50px; float: right; position: relative; font-size: 18px; color: black; font-family: "helveticaneuecyrthin", sans-serif; }
 .header .header__action .i-arr { position: absolute; left: -25px; top: 4px; }
 
-.logo { position: absolute; top: -20px; left: 0; font: 0/0 a; text-shadow: none; color: transparent; background: url('../img/icons-sccb4eda085.png') 0 -1239px no-repeat; width: 162px; height: 88px; }
+.logo { position: absolute; top: -20px; left: 0; font: 0/0 a; text-shadow: none; color: transparent; background: url('../img/icons-s3cd6ebb7a7.png') 0 -1751px no-repeat; width: 162px; height: 88px; }
 
 .footer { height: 72px; line-height: 72px; background: #26051e; color: #afafaf; font-size: 13px; font-size: 1.3rem; font-family: "helveticaneuecyrthin", sans-serif; *zoom: 1; }
 .footer:before, .footer:after { content: ""; display: table; }
@@ -180,10 +187,12 @@ a:hover { text-decoration: none; }
 .winners-action .winners-action__info { width: 445px; position: absolute; top: 0; left: 0; font-family: "helveticaneuecyrthin", sans-serif; font-size: 18px; font-size: 1.8rem; }
 .winners-action .winners-action__info a { font-family: "helveticaneuecyrthin", sans-serif; font-size: 18px; font-size: 1.8rem; color: black; }
 .winners-action .winners-action__info span { color: #a3228a; }
-.winners-action .i-car { float: right; margin-bottom: 20px; }
+.winners-action .i-car, .winners-action .i-car_mod { float: right; margin-bottom: 20px; }
 
-.popup { position: relative; background: url('../img/icons-sccb4eda085.png') 0 -832px no-repeat; width: 657px; height: 397px; text-align: center; }
+.winners-action_main { min-height: 450px; }
+
+.popup { position: relative; background: url('../img/icons-s3cd6ebb7a7.png') 0 -1344px no-repeat; width: 657px; height: 397px; text-align: center; }
 .popup .popup-i { width: 430px; margin-left: 180px; padding-top: 55px; }
-.popup .popup__close { background: url('../img/icons-sccb4eda085.png') 0 -1461px no-repeat; width: 27px; height: 27px; position: absolute; top: 20px; right: 20px; cursor: pointer; }
+.popup .popup__close { background: url('../img/icons-s3cd6ebb7a7.png') 0 -1973px no-repeat; width: 27px; height: 27px; position: absolute; top: 20px; right: 20px; cursor: pointer; }
 .popup .h2 { font-size: 40px; font-size: 4rem; color: #a3228a; }
 .popup p { line-height: 1; margin-bottom: 15px; color: black; font-size: 18px; font-size: 1.8rem; }
