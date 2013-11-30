@@ -20,7 +20,6 @@ $(document).ready(function() {
 
 
 	// popup
-;
 	jQuery('.popup__close, .overlay').click(function(event) {
 		jQuery('.popup2').removeClass('is-active');
 		jQuery('.overlay').removeClass('is-active');
