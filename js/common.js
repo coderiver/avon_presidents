@@ -17,4 +17,13 @@ $(document).ready(function() {
 		$(".out").css("margin-bottom", -footerHeight);
 		$(".push").css("height", footerHeight);
 	});
+
+
+	// popup
+;
+	jQuery('.popup__close, .overlay').click(function(event) {
+		jQuery('.popup2').removeClass('is-active');
+		jQuery('.overlay').removeClass('is-active');
+		return false;
+	});
 });
