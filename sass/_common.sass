@@ -41,7 +41,15 @@
 =did
 	font-family: 'TheanoDidotRegular'
 ///////////////////////////////// * base * ////////////////////////////////
-+selection(red, blue)
+html, body
+	height: 100%
+
+.out
+	min-height: 100%
+	height: auto !important
+	height: 100%
+	margin: 0 auto
+
 a
 	text-decoration: underline
 	&:hover
@@ -61,7 +69,6 @@ a
 
 .out_close
 	// background: url(../img/bg2.jpg) 0% 0px no-repeat
-	min-height: 650px
 	text-align: center
 	.h2
 		margin-bottom: 40px
@@ -77,6 +84,23 @@ a
 	.i-rose
 		margin-top: 25px
 
+.out_enter
+	text-align: center
+	.page
+		.h2
+			padding-bottom: 20px
+			margin-bottom: 0
+			line-height: 1
+			color: $purple
+			+hel 
+			+fs(40)
+		.h3
+			padding-bottom: 20px
+			margin-bottom: 0
+			line-height: 1
+			color: #000
+			+fs(40)
+			+hel
 ///////////////////////////////// * icons * ////////////////////////////////
 [class^="i-"], [class*=" i-"]
 	display: inline-block
@@ -92,6 +116,8 @@ a
 	+s(i-rose)
 .i-avon
 	+s(i-avon)
+.i-car
+	+s(car)
 ///////////////////////////////// * .header * ////////////////////////////////
 .header
 	height: 90px
@@ -102,6 +128,7 @@ a
 		float: left
 		margin-left: 324px
 		font-size: 18px
+		text-align: left
 		+het
 		.header__user-fio
 			position: relative
@@ -204,12 +231,13 @@ a
 		right: 0
 		top: 0
 		text-align: center
+		font-style: normal
 		color: $purple
 		+fs(40)
 		+hel
 		p
 			line-height: 1
-			margin-bottom: 30px
+			margin-bottom: 20px
 
 .info
 	padding-bottom: 130px
@@ -224,7 +252,21 @@ a
 		width: 140px
 		float: right
 
-
-
+.winners-action
+	text-align: left
+	position: relative
+	+clr
+	.winners-action__info
+		width: 445px
+		position: absolute
+		top: 0
+		left: 0
+		+het
+		+fs(18)
+		span
+			color: $purple 
+	.i-car
+		float: right
+		margin-bottom: 20px
 
 	
