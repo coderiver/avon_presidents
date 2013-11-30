@@ -172,8 +172,8 @@ a:hover { text-decoration: none; }
 .list li:before, .list li:after { content: ""; display: table; }
 .list li:after { clear: both; }
 .list .list__left { width: 85px; display: inline-block; vertical-align: middle; position: relative; text-align: right; font-size: 44px; font-size: 4.4rem; }
-.list .list__left:after { content: "-"; color: black; font-family: "TheanoDidotRegular"; font-size: 22px; font-size: 2.2rem; position: absolute; top: -2px; right: -28px; }
-.list .list__right { width: 240px; margin-left: 40px; display: inline-block; vertical-align: middle; line-height: 1; font-size: 22px; font-size: 2.2rem; }
+.list .list__left:after { content: "-"; color: black; font-family: "TheanoDidotRegular"; font-size: 22px; font-size: 2.2rem; position: absolute; top: -2px; right: -40px; }
+.list .list__right { width: 240px; margin-left: 55px; display: inline-block; vertical-align: middle; line-height: 1; font-size: 22px; font-size: 2.2rem; }
 .list .list__slogan { width: 350px; position: absolute; right: 0; top: 0; text-align: center; font-style: normal; color: #a3228a; font-size: 40px; font-size: 4rem; font-family: "helveticaneuecyrultralight", sans-serif; }
 .list .list__slogan p { line-height: 1; margin-bottom: 20px; }
 
