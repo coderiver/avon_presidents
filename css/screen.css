@@ -210,13 +210,13 @@ a:hover { text-decoration: none; }
 .select-checkbox { position: relative; display: inline-block; color: #f0f4f5; cursor: pointer; }
 .select-checkbox span { display: inline-block; margin-left: 15px; font-size: 18px; font-size: 1.8rem; color: black !important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; vertical-align: middle; font-family: "helveticaneuecyrthin", sans-serif; }
 .select-checkbox input { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; vertical-align: middle; }
-.select-checkbox input + span:before { content: ""; position: absolute; top: 3px; left: 0px; font-size: 12px; color: #7c7a77; background: white; background: url('../img/icons-s141c39b970.png') 0 -2109px no-repeat; width: 22px; height: 21px; }
-.select-checkbox input:checked + span:after { content: ""; position: absolute; top: 3px; left: 0px; background: url('../img/icons-s141c39b970.png') 0 -2041px no-repeat; width: 22px; height: 21px; }
+.select-checkbox input + span:before { content: ""; height: 17px; width: 17px; border: 2px solid #ca9bc6; -webkit-border-radius: 5px; border-radius: 5px; position: absolute; top: 3px; left: 0px; font-size: 12px; color: #7c7a77; background: white; }
+.select-checkbox input:checked + span:after { content: ""; position: absolute; top: 3px; left: -1px; background: url('../img/icons-s141c39b970.png') 0 -2041px no-repeat; width: 22px; height: 21px; }
 
 .btn { display: inline-block; vertical-align: middle; }
 .btn:hover { text-decoration: none !important; }
 
-.btn_auto { width: 100%; height: 44px; line-height: 44px; padding: 0 25px 0 60px; font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; background: url(../img/icons/btn.png) 0px 0px repeat-x; color: white !important; text-decoration: none; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-border-radius: 3px; border-radius: 3px; }
+.btn_auto { width: 100%; height: 44px; line-height: 44px; padding: 0 25px 0 60px; font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; background: url(../img/icons/btn.png) 0px 0px repeat-x; color: white !important; text-decoration: none; position: relative; border: none; outline: none; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-border-radius: 3px; border-radius: 3px; }
 .btn_auto:before { content: ""; position: absolute; left: 25px; top: 9px; background: url('../img/icons-s141c39b970.png') 0 -2007px no-repeat; width: 24px; height: 24px; }
 .btn_auto:hover { background: url(../img/icons/btn_h.png) 0px 0px repeat-x; text-shadow: 0 0 5px rgba(255, 228, 250, 0.32); }
 .btn_auto:hover:before { background: url('../img/icons-s141c39b970.png') 0 -1973px no-repeat; width: 24px; height: 24px; }
