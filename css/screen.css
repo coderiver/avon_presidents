@@ -85,9 +85,85 @@ button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
 
 input[type="submit"]::-moz-focus-inner { padding: 0; border: 0; }
 
+@font-face { font-family: "helveticaneuecyrthin"; src: url("../fonts/helveticaneuecyr-thin-webfont.eot?#iefix"); src: url("../fonts/helveticaneuecyr-thin-webfont.eot") format("embedded-opentype"), url("../fonts/helveticaneuecyr-thin-webfont.woff") format("woff"), url("../fonts/helveticaneuecyr-thin-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: "helveticaneuecyrultralight"; src: url("../fonts/helveticaneuecyr-ultralight-webfont.eot?#iefix"); src: url("../fonts/helveticaneuecyr-ultralight-webfont.eot") format("embedded-opentype"), url("../fonts/helveticaneuecyr-ultralight-webfont.woff") format("woff"), url("../fonts/helveticaneuecyr-ultralight-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: "helveticaneuecyritalic"; src: url("../fonts/helveticaneuecyr-italic-webfont.eot"); src: url("../fonts/helveticaneuecyr-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/helveticaneuecyr-italic-webfont.woff") format("woff"), url("../fonts/helveticaneuecyr-italic-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+
 ::selection { background: blue; color: red; }
 
 ::-moz-selection { background: blue; color: red; }
 
 a { text-decoration: underline; }
 a:hover { text-decoration: none; }
+
+.wrap { width: 836px; margin: 0 auto; }
+
+.out { padding: 35px 0 0 55px; background: url(../img/bg1.jpg) 0% 0px no-repeat; background-repeat: no-repeat; background-size: cover; background-position: 0% 0%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+.out-i { width: 836px; margin: 0 auto; }
+
+.out_close { min-height: 650px; text-align: center; }
+.out_close .h2 { margin-bottom: 40px; line-height: 1; color: #a3228a; font-family: "helveticaneuecyrultralight", sans-serif; font-size: 40px; font-size: 4rem; }
+.out_close p { margin-bottom: 15px; line-height: 1; font-size: 18px; font-size: 1.8rem; font-family: "helveticaneuecyrthin", sans-serif; }
+.out_close .i-rose { margin-top: 25px; }
+
+[class^="i-"], [class*=" i-"] { display: inline-block; vertical-align: middle; }
+
+.i-user { background: url('../img/icons-s3da235335b.png') 0 -1153px no-repeat; width: 17px; height: 18px; }
+
+.i-arr { background: url('../img/icons-s3da235335b.png') 0 -1181px no-repeat; width: 15px; height: 19px; }
+
+.i-tw { background: url('../img/icons-s3da235335b.png') 0 -914px no-repeat; width: 56px; height: 63px; }
+
+.i-rose { background: url('../img/icons-s3da235335b.png') 0 -1075px no-repeat; width: 67px; height: 43px; }
+
+.header { height: 90px; padding-bottom: 35px; position: relative; *zoom: 1; }
+.header:before, .header:after { content: ""; display: table; }
+.header:after { clear: both; }
+.header .header__user { float: left; margin-left: 324px; font-size: 18px; font-family: "helveticaneuecyrthin", sans-serif; }
+.header .header__user .header__user-fio { position: relative; color: #a3228a; }
+.header .header__user .i-user { position: absolute; left: -25px; top: 2px; }
+.header .header__user-id { color: black; }
+.header .header__action { margin-right: 50px; float: right; position: relative; font-size: 18px; color: black; font-family: "helveticaneuecyrthin", sans-serif; }
+.header .header__action .i-arr { position: absolute; left: -25px; top: 4px; }
+
+.logo { position: absolute; top: -20px; left: 0; font: 0/0 a; text-shadow: none; color: transparent; background: url('../img/icons-s3da235335b.png') 0 -816px no-repeat; width: 162px; height: 88px; }
+
+.footer { height: 72px; line-height: 72px; background: #26051e; color: #afafaf; font-size: 13px; font-size: 1.3rem; font-family: "helveticaneuecyrthin", sans-serif; *zoom: 1; }
+.footer:before, .footer:after { content: ""; display: table; }
+.footer:after { clear: both; }
+.footer .footer__in { width: 836px; margin: 0 auto; *zoom: 1; }
+.footer .footer__in:before, .footer .footer__in:after { content: ""; display: table; }
+.footer .footer__in:after { clear: both; }
+.footer .footer__copy { float: left; }
+.footer .footer__info { float: right; }
+
+.congratulation { width: 100%; background: url(../img/icons/test.png) 465px 0px no-repeat; font-size: 18px; font-size: 1.8rem; font-family: "helveticaneuecyrthin", sans-serif; }
+.congratulation .congratulation__meta { font-weight: normal; font-size: 40px; font-size: 4rem; font-family: "helveticaneuecyrultralight", sans-serif; }
+.congratulation .congratulation__meta p { margin-bottom: 15px; line-height: 1; }
+.congratulation span { color: #a3228a; }
+.congratulation .congratulation__for-you { margin: 35px 0; }
+
+.list { margin: 60px 0; position: relative; font-family: "helveticaneuecyritalic", sans-serif; }
+.list ul { list-style: none; }
+.list li { height: 65px; line-height: 65px; *zoom: 1; }
+.list li:before, .list li:after { content: ""; display: table; }
+.list li:after { clear: both; }
+.list .list__left { width: 85px; display: inline-block; vertical-align: middle; position: relative; text-align: right; font-size: 44px; font-size: 4.4rem; }
+.list .list__left:after { content: "-"; color: black; font-size: 22px; font-size: 2.2rem; position: absolute; top: -2px; right: -28px; }
+.list .list__right { width: 240px; margin-left: 40px; display: inline-block; vertical-align: middle; line-height: 1; font-size: 22px; font-size: 2.2rem; }
+.list .list__slogan { width: 350px; position: absolute; right: 0; top: 0; text-align: center; color: #a3228a; font-size: 40px; font-size: 4rem; font-family: "helveticaneuecyrultralight", sans-serif; }
+.list .list__slogan p { line-height: 1; margin-bottom: 30px; }
+
+.info { padding-bottom: 130px; overflow: hidden; font-size: 18px; font-size: 1.8rem; font-family: "helveticaneuecyrthin", sans-serif; }
+.info p { margin-bottom: 30px; }
+.info span { color: #a3228a; }
+.info .info__goran { width: 140px; float: right; }
+
+.popup { position: relative; background: url('../img/icons-s3da235335b.png') 0 -409px no-repeat; width: 657px; height: 397px; text-align: center; }
+.popup .popup-i { width: 430px; margin-left: 180px; padding-top: 55px; }
+.popup .popup__close { background: url('../img/icons-s3da235335b.png') 0 -1038px no-repeat; width: 27px; height: 27px; position: absolute; top: 20px; right: 20px; cursor: pointer; }
+.popup .h2 { font-size: 40px; font-size: 4rem; color: #a3228a; }
+.popup p { line-height: 1; margin-bottom: 15px; color: black; font-size: 18px; font-size: 1.8rem; }
