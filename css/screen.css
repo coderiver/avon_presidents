@@ -119,6 +119,8 @@ a:hover { text-decoration: none; }
 
 .i-rose { background: url('../img/icons-s3da235335b.png') 0 -1075px no-repeat; width: 67px; height: 43px; }
 
+.i-avon { background: url('../img/icons-s3da235335b.png') 0 -987px no-repeat; width: 137px; height: 41px; }
+
 .header { height: 90px; padding-bottom: 35px; position: relative; *zoom: 1; }
 .header:before, .header:after { content: ""; display: table; }
 .header:after { clear: both; }
