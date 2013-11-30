@@ -172,10 +172,11 @@ a:hover { text-decoration: none; }
 .info span { color: #a3228a; }
 .info .info__goran { width: 140px; float: right; }
 
-.winners-action { text-align: left; position: relative; *zoom: 1; }
+.winners-action { margin-top: 30px; text-align: left; position: relative; *zoom: 1; }
 .winners-action:before, .winners-action:after { content: ""; display: table; }
 .winners-action:after { clear: both; }
 .winners-action .winners-action__info { width: 445px; position: absolute; top: 0; left: 0; font-family: "helveticaneuecyrthin", sans-serif; font-size: 18px; font-size: 1.8rem; }
+.winners-action .winners-action__info a { font-family: "helveticaneuecyrthin", sans-serif; font-size: 18px; font-size: 1.8rem; color: black; }
 .winners-action .winners-action__info span { color: #a3228a; }
 .winners-action .i-car { float: right; margin-bottom: 20px; }
 
