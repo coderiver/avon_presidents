@@ -231,12 +231,12 @@ a:hover { text-decoration: none; }
 .overlay { position: fixed; top: 0; right: 0; bottom: 0; left: 0; background: rgba(255, 255, 255, 0.95); z-index: -1; opacity: 0; -moz-transition: all 0.3s linear; -o-transition: all 0.3s linear; -webkit-transition: all 0.3s linear; -ms-transition: all 0.3s linear; transition: all 0.3s linear; }
 .overlay.is-active { opacity: 1; z-index: 1000; }
 
-.popup2 { position: fixed; width: 870px; height: 400px; left: 50%; top: 50%; margin-left: -435px; margin-top: -200px; z-index: -1; opacity: 0; background-color: #dae3e7; border-radius: 5px; -webkit-transform: translate3d(0, -700px, 0); -moz-transform: translate3d(0, -700px, 0); -ms-transform: translate3d(0, -700px, 0); -o-transform: translate3d(0, -700px, 0); transform: translate3d(0, -700px, 0); -moz-transition: all 0.3s ease-in; -o-transition: all 0.3s ease-in; -webkit-transition: all 0.3s ease-in; -ms-transition: all 0.3s ease-in; transition: all 0.3s ease-in; }
+.popup2 { position: fixed; width: 870px; height: 400px; left: 50%; top: 50%; margin-left: -435px; margin-top: -200px; z-index: -1; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; background-color: #dae3e7; border-radius: 5px; -webkit-transform: translate3d(0, -700px, 0); -moz-transform: translate3d(0, -700px, 0); -ms-transform: translate3d(0, -700px, 0); -o-transform: translate3d(0, -700px, 0); transform: translate3d(0, -700px, 0); -moz-transition: all 0.3s ease-in; -o-transition: all 0.3s ease-in; -webkit-transition: all 0.3s ease-in; -ms-transition: all 0.3s ease-in; transition: all 0.3s ease-in; }
 .popup2.is-active { opacity: 1; z-index: 1001; -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
 .popup2 .popup-i { position: relative; padding: 15px; }
 .popup2 .popup__close { position: absolute; top: -25px; right: -30px; }
 .popup2 .popup__close:hover { cursor: pointer; }
 .popup2 .popup__title { color: #c71b31; line-height: 1.2; margin-top: 0; }
 
-.ie8 .select-checkbox input { opacity: 1; }
-.ie8 .select-checkbox input + span:before { content: none; }
+.lteie8 .select-checkbox input { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); opacity: 1; }
+.lteie8 .select-checkbox input + span:before { display: none; }
