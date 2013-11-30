@@ -223,7 +223,7 @@ a:hover { text-decoration: none; }
 
 .row { margin: 28px 0; }
 
-.form { width: 285px; }
+.form { width: 285px; width-margin-top: 50px; }
 .form .input { width: 100%; }
 .form .form__note { color: #777777; font-size: 13px; font-size: 1.3rem; font-family: "helveticaneuecyrthin", sans-serif; }
 .form .form__note p { margin-bottom: 15px; }
