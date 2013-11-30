@@ -115,6 +115,8 @@ a:hover { text-decoration: none; }
 .out_enter .page .h2 { padding-bottom: 20px; margin-bottom: 0; line-height: 1; color: #a3228a; font-family: "helveticaneuecyrultralight", sans-serif; font-size: 40px; font-size: 4rem; }
 .out_enter .page .h3 { padding-bottom: 20px; margin-bottom: 0; line-height: 1; color: black; font-size: 40px; font-size: 4rem; font-family: "helveticaneuecyrultralight", sans-serif; }
 
+.page_main p { margin-bottom: 10px; line-height: 1; }
+
 [class^="i-"], [class*=" i-"] { display: inline-block; vertical-align: middle; }
 
 .i-user { background: url('../img/icons-sccb4eda085.png') 0 -1576px no-repeat; width: 17px; height: 18px; }
