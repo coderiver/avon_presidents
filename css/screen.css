@@ -91,7 +91,7 @@ input[type="submit"]::-moz-focus-inner { padding: 0; border: 0; }
 
 @font-face { font-family: "helveticaneuecyritalic"; src: url("../fonts/helveticaneuecyr-italic-webfont.eot"); src: url("../fonts/helveticaneuecyr-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/helveticaneuecyr-italic-webfont.woff") format("woff"), url("../fonts/helveticaneuecyr-italic-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: "TheanoDidotRegular"; src: url("theanodidot-regular.eot"); src: url("theanodidot-regular.eot") format("embedded-opentype"), url("theanodidot-regular.woff") format("woff"), url("theanodidot-regular.ttf") format("truetype"), url("theanodidot-regular.svg#TheanoDidotRegular") format("svg"); }
+@font-face { font-family: "TheanoDidotRegular"; src: url("../fonts/theanodidot-regular.eot"); src: url("../fonts/theanodidot-regular.eot") format("embedded-opentype"), url("../fonts/theanodidot-regular.woff") format("woff"), url("../fonts/theanodidot-regular.ttf") format("truetype"), url("../fonts/theanodidot-regular.svg#TheanoDidotRegular") format("svg"); }
 
 html, body { height: 100%; }
 
@@ -102,13 +102,13 @@ a:hover { text-decoration: none; }
 
 .wrap { width: 836px; margin: 0 auto; }
 
-.out { padding: 35px 0 0 55px; background: url(../img/bg_standart.jpg) 0% 0px no-repeat; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.out { padding: 35px 0 0 55px; background: url(../img/bg_standart1250.jpg) 0% 0px no-repeat; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 .out-i { width: 836px; margin: 0 auto; }
 
-.out_popup { background: url(../img/bg_popup.jpg) 0px 0px no-repeat; }
+.out_popup { background: url(../img/bg_popup1250.jpg) 0px 0px no-repeat; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
 
-.out_goran { background: url(../img/bg_goran.jpg) 0px 0px no-repeat; }
+.out_goran { background: url(../img/bg_goran1250.jpg) 0px 0px no-repeat; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
 
 .out_close { text-align: center; }
 .out_close .h2 { margin-bottom: 40px; line-height: 1; color: #a3228a; font-family: "helveticaneuecyrultralight", sans-serif; font-size: 40px; font-size: 4rem; }
@@ -186,11 +186,15 @@ a:hover { text-decoration: none; }
 .winners-action:after { clear: both; }
 .winners-action .winners-action__info { width: 445px; position: absolute; top: 0; left: 0; font-family: "helveticaneuecyrthin", sans-serif; font-size: 18px; font-size: 1.8rem; }
 .winners-action .winners-action__info a { font-family: "helveticaneuecyrthin", sans-serif; font-size: 18px; font-size: 1.8rem; color: black; }
+.winners-action .winners-action__info a:hover { color: #a3228a; text-decoration: underline; }
 .winners-action .winners-action__info span { color: #a3228a; }
 .winners-action .i-car, .winners-action .i-car_mod { float: right; margin-bottom: 20px; }
 
 .winners-action_main { min-height: 450px; }
 
+@media only screen and (min-width: 1400px) and (max-width: 2200px) { .out { background: url(../img/bg_standart.jpg) 0% 0px no-repeat; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
+  .out_popup { background: url(../img/bg_popup.jpg) 0px 0px no-repeat; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
+  .out_goran { background: url(../img/bg_goran.jpg) 0px 0px no-repeat; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .popup { position: relative; background: url('../img/icons-s3cd6ebb7a7.png') 0 -1344px no-repeat; width: 657px; height: 397px; text-align: center; }
 .popup .popup-i { width: 430px; margin-left: 180px; padding-top: 55px; }
 .popup .popup__close { background: url('../img/icons-s3cd6ebb7a7.png') 0 -1973px no-repeat; width: 27px; height: 27px; position: absolute; top: 20px; right: 20px; cursor: pointer; }

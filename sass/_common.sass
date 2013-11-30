@@ -29,8 +29,8 @@
 	
 @font-face
 	font-family: 'TheanoDidotRegular'
-	src: url('theanodidot-regular.eot')
-	src: url('theanodidot-regular.eot') format('embedded-opentype'), url('theanodidot-regular.woff') format('woff'), url('theanodidot-regular.ttf') format('truetype'), url('theanodidot-regular.svg#TheanoDidotRegular') format('svg')
+	src: url('../fonts/theanodidot-regular.eot')
+	src: url('../fonts/theanodidot-regular.eot') format('embedded-opentype'), url('../fonts/theanodidot-regular.woff') format('woff'), url('../fonts/theanodidot-regular.ttf') format('truetype'), url('../fonts/theanodidot-regular.svg#TheanoDidotRegular') format('svg')
 
 =het
 	font-family: 'helveticaneuecyrthin', sans-serif
@@ -60,16 +60,18 @@ a
 
 .out
 	padding: 35px 0 0 55px
-	background: url(../img/bg_standart.jpg) 0% 0px no-repeat
+	background: url(../img/bg_standart1250.jpg) 0% 0px no-repeat
 	+cover
 	+box
 .out-i
 	width: 836px
 	margin: 0 auto
 .out_popup
-	background: url(../img/bg_popup.jpg) 0px 0px no-repeat
+	background: url(../img/bg_popup1250.jpg) 0px 0px no-repeat
+	+cover
 .out_goran
-	background: url(../img/bg_goran.jpg) 0px 0px no-repeat
+	background: url(../img/bg_goran1250.jpg) 0px 0px no-repeat
+	+cover
 .out_close
 	text-align: center
 	.h2
@@ -282,7 +284,10 @@ a
 		a
 			+het
 			+fs(18)
-			color: #000 
+			color: #000
+			&:hover
+				color: $purple
+				text-decoration: underline
 		span
 			color: $purple 
 	.i-car, .i-car_mod
@@ -291,5 +296,18 @@ a
 
 .winners-action_main
 	min-height: 450px 
+
+
+@media only screen and (min-width: 1400px) and (max-width: 2200px)
+	.out
+		background: url(../img/bg_standart.jpg) 0% 0px no-repeat
+		+cover
+	.out_popup
+		background: url(../img/bg_popup.jpg) 0px 0px no-repeat
+		+cover
+	.out_goran
+		background: url(../img/bg_goran.jpg) 0px 0px no-repeat
+		+cover
+	
 
 	
