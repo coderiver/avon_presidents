@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+
 	// product__popup close
 	$(".js-close").click(function() {
 		$(this).parents(".popup").fadeOut("fast");
@@ -25,7 +26,7 @@ $(document).ready(function() {
 		jQuery('.overlay').removeClass('is-active');
 		return false;
 	});
-
+	$('.out').css({backgroundSize: "cover"});
 
 	$('.popup__content').jScrollPane();
 	
