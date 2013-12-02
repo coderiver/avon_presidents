@@ -20,12 +20,15 @@
 	.h2
 		+fs(40)
 		color: $purple
+		.lteie8 &
+			font-size: 30px 
 	p
 		line-height: 1
 		margin-bottom: 15px
 		color: #000 
 		+fs(18)
-
+		.lteie8 &
+			font-size: 16px 
 // input
 .input
 	padding: 6px 10px
@@ -48,7 +51,7 @@
 	span
 		display: inline-block
 		margin-left: 15px
-		+fs(18)
+		+fs(16)
 		color: #000 !important
 		+unselect
 		vertical-align: middle
@@ -100,7 +103,7 @@
 	outline: none
 	+box
 	+br(3px)
-	&:before
+	.button__icon
 		content: ""
 		position: absolute
 		left: 25px
@@ -117,7 +120,7 @@
 // form
 .form
 	width: 285px
-		margin-top: 50px
+	margin-top: 50px
 	.input
 		width: 100%
 	.form__note
@@ -126,6 +129,7 @@
 		+het
 		p
 			margin-bottom: 15px
+			font-size: 13px !important
 
 // popup
 .overlay
@@ -134,12 +138,12 @@
 	right: 0
 	bottom: 0
 	left: 0
+	background: #fff 
 	background: rgba(255,255,255, .95)
-	z-index: -1
-	opacity: 0
+	display: none
 	+transition(all .3s linear)
 	&.is-active
-		opacity: 1
+		display: block
 		z-index: 1000
 
 .popup2
@@ -149,13 +153,10 @@
 	top: 50%
 	margin-left: -435px
 	margin-top: -300px
-	z-index: -1
-	+opacity(0)
 	background: #E2E2E2 url(../img/bg.jpg) repeat 0 0
 	border-radius: 18px
-	+transform(translate3d(0,-700px,0))
-	+transition(all .3s ease-in)
 	padding: 30px 42px 30px 71px
+	display: none
 	&:before
 		height: 52px
 		bottom: -52px  
@@ -165,7 +166,7 @@
 		content: ' ' 
 		background: url(../img/popupshadow.png) no-repeat 50% 0 
 	&.is-active
-		opacity: 1
+		display: block
 		z-index: 1001
 		+transform(translate3d(0,0,0))
 	.popup__content
@@ -180,7 +181,7 @@
 		ul
 			list-style: none 
 			padding-right: 30px 
-			+hel
+			+het
 			strong
 				font-weight: normal
 				color: #A02277 

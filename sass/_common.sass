@@ -57,20 +57,25 @@ a
 .wrap
 	width: 836px
 	margin: 0 auto
-
+body
+	background: #DBDBDD 
 .out
-	padding: 35px 0 0 55px
-	background: url(../img/bg_standart1250.jpg) 0% 0px no-repeat
+	//padding: 35px 0 0 55px
+	background: url(../img/bg_standart1250.jpg) repeat 50% 0
 	+cover
-	+box
+	//+box
+	margin-bottom: -72px 
+.out .push
+	height: 72px 
 .out-i
 	width: 836px
 	margin: 0 auto
+	padding-top: 35px 
 .out_popup
-	background: url(../img/bg_popup1250.jpg) 0px 0px no-repeat
+	background: url(../img/bg_popup1250.jpg) repeat 50% 0
 	+cover
 .out_goran
-	background: url(../img/bg_goran1250.jpg) 0px 0px no-repeat
+	background: url(../img/bg_goran1250.jpg) repeat 50% 0
 	+cover
 .out_close
 	text-align: center
@@ -283,7 +288,7 @@ a
 	+clr
 	.winners-action__info
 		width: 445px
-		position: absolute
+		//position: absolute
 		top: 0
 		left: 0
 		+het
@@ -307,13 +312,13 @@ a
 
 @media only screen and (min-width: 1400px) and (max-width: 2200px)
 	.out
-		background: url(../img/bg_standart.jpg) 0% 0px no-repeat
+		background: url(../img/bg_standart.jpg) repeat 50% 0
 		+cover
 	.out_popup
-		background: url(../img/bg_popup.jpg) 0px 0px no-repeat
+		background: url(../img/bg_popup.jpg) repeat 50% 0
 		+cover
 	.out_goran
-		background: url(../img/bg_goran.jpg) 0px 0px no-repeat
+		background: url(../img/bg_goran.jpg) repeat 50% 0
 		+cover
 	
 
