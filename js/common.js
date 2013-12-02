@@ -25,4 +25,8 @@ $(document).ready(function() {
 		jQuery('.overlay').removeClass('is-active');
 		return false;
 	});
+
+
+	$('.popup__content').jScrollPane();
+	
 });

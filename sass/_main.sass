@@ -144,35 +144,68 @@
 
 .popup2
 	position: fixed
-	width: 870px  
-	height: 400px
+	width: 870px  - 42px - 71px
 	left: 50%
 	top: 50%
 	margin-left: -435px
-	margin-top: -200px
+	margin-top: -300px
 	z-index: -1
 	+opacity(0)
-	background-color: #dae3e7
-	border-radius: 5px
+	background: #E2E2E2 url(../img/bg.jpg) repeat 0 0
+	border-radius: 18px
 	+transform(translate3d(0,-700px,0))
 	+transition(all .3s ease-in)
+	padding: 30px 42px 30px 71px
+	&:before
+		height: 52px
+		bottom: -52px  
+		position: absolute
+		left: -30px 
+		width: 100%
+		content: ' ' 
+		background: url(../img/popupshadow.png) no-repeat 50% 0 
 	&.is-active
 		opacity: 1
 		z-index: 1001
 		+transform(translate3d(0,0,0))
+	.popup__content
+		height: 250px 
+		overflow: auto
+		font-size: 16px 
+		line-height: 1.2 
+		h3
+			font-size: 16px 
+			font-weight: normal
+			margin: 30px 0
+		ul
+			list-style: none 
+			padding-right: 30px 
+			+hel
+			strong
+				font-weight: normal
+				color: #A02277 
+			li
+				margin-bottom: 8px 
 	.popup-i
 		position: relative
 		padding: 15px
 	.popup__close
 		position: absolute
-		top: -25px
-		right: -30px
-		&:hover
-			cursor: pointer
+		top: 30px
+		right: 30px
+		+s(closeme)
+		cursor: pointer
+		z-index: 100 
+			
 	.popup__title
-		color: #c71b31
+		color: #000
 		line-height: 1.2
 		margin-top: 0 
+		margin-bottom: 14px 
+		+hel
+		font-size: 40px 
+		span
+			color: #A02277 
 
 	
 .forma
